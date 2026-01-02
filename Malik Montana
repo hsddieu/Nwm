@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Malik Montana – od początku do dziś</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0a1a2f;
+      color: #ffffff;
+    }
+    header {
+      background: #0d47a1;
+      padding: 30px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #42a5f5;
+    }
+    ul li {
+      margin: 6px 0;
+    }
+    a {
+      color: #90caf9;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0d47a1;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Malik Montana</h1>
+    <p>Od początku kariery do dziś</p>
+  </header>
+
+  <section>
+    <h2>Początki</h2>
+    <p>
+      Malik Montana, właściwie Mosa Ghawsi, urodził się w Hamburgu.
+      Karierę muzyczną zaczynał od niezależnych nagrań, budując rozpoznawalność
+      w internecie.
+    </p>
+
+    <h2>GM2L</h2>
+    <p>
+      GM2L (Get Money Live Life) to etap, który przyniósł mu ogólnopolską popularność.
+      Charakterystyczny styl, trapowe brzmienia i luksusowy wizerunek.
+    </p>
+
+    <h2>Tax Free</h2>
+    <p>
+      Era „Tax Free” to jeszcze większe budżety, międzynarodowe inspiracje
+      i umocnienie pozycji Malika na scenie.
+    </p>
+
+    <h2>Samochody</h2>
+    <ul>
+      <li>Mercedes-Benz G-Class</li>
+      <li>Mercedes S-Class</li>
+      <li>BMW M8</li>
+      <li>Samochody na felgach Vossen</li>
+    </ul>
+
+    <h2>Najpopularniejsze albumy</h2>
+    <ul>
+      <li><a href="https://open.spotify.com/album/3YxZ9i7jJv1n0xwXkL9QmZ" target="_blank">Haram Masari</a></li>
+      <li><a href="https://open.spotify.com/album/6s0V3dKp1Zy1jQm4G9QKkH" target="_blank">Import/Export</a></li>
+      <li><a href="https://open.spotify.com/album/0Hq8pQp3V5Z7JQxGZ1Qm8x" target="_blank">Adwokat Diabła</a></li>
+    </ul>
+
+    <p><strong>Rura musi – yeah.</strong></p>
+  </section>
+
+  <footer>
+    © Malik Montana – strona informacyjna
+  </footer>
+</body>
+</html>
