@@ -1,2 +1,0 @@
-# Nwm
-Malik MONTANA 
