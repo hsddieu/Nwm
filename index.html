@@ -1,0 +1,124 @@
+<!DOCTYPE html><html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BMW – Pasja i Technologia</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }body {
+  background: #0b0f14;
+  color: #fff;
+  line-height: 1.6;
+}
+
+header {
+  height: 100vh;
+  background: linear-gradient(135deg, #0a1a2f, #000);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 4rem;
+  letter-spacing: 4px;
+}
+
+header p {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #cfd8dc;
+}
+
+section {
+  padding: 100px 10%;
+  min-height: 100vh;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #4fc3f7;
+}
+
+.card {
+  background: #111827;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  max-width: 700px;
+}
+
+/* Animacje */
+.fade {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 0.8s ease;
+}
+
+.fade.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+footer {
+  padding: 40px;
+  text-align: center;
+  background: #05080d;
+  color: #777;
+}
+
+  </style>
+</head>
+<body>  <header>
+    <h1>BMW</h1>
+    <p>Radość z jazdy • Innowacja • Precyzja</p>
+  </header>  <section>
+    <h2 class="section-title fade">O marce BMW</h2>
+    <div class="card fade">
+      <p>
+        BMW (Bayerische Motoren Werke) to niemiecka marka premium,
+        znana z połączenia sportowych osiągów, luksusu i nowoczesnych
+        technologii. Od lat symbolizuje hasło „Radość z jazdy”.
+      </p>
+    </div>
+  </section>  <section>
+    <h2 class="section-title fade">Sportowy charakter</h2>
+    <div class="card fade">
+      <p>
+        Modele BMW wyróżniają się napędem, precyzyjnym prowadzeniem
+        oraz dynamicznymi silnikami. Seria M to czysta esencja
+        motorsportu przeniesiona na drogi publiczne.
+      </p>
+    </div>
+  </section>  <section>
+    <h2 class="section-title fade">Nowoczesne technologie</h2>
+    <div class="card fade">
+      <p>
+        BMW inwestuje w elektryfikację, autonomię oraz cyfryzację.
+        Systemy iDrive, elektryczna linia BMW i oraz zaawansowane
+        asysty kierowcy wyznaczają standardy w branży.
+      </p>
+    </div>
+  </section>  <footer>
+    <p>© 2026 BMW – strona demonstracyjna</p>
+  </footer>  <script>
+    const elements = document.querySelectorAll('.fade');
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        }
+      });
+    }, { threshold: 0.2 });
+
+    elements.forEach(el => observer.observe(el));
+  </script></body>
+</html>
